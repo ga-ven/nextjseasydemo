@@ -1,8 +1,7 @@
 export interface Teacher {
-  id: string;
+  id?: string;
   name: string;
-  email: string;
   subject: string;
-  createdAt: string;
-  updatedAt: string;
+  email?: string;
+  phone?: string;
 }
