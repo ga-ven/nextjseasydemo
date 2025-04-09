@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { Teacher } from "@/types/teacher";
-import { teachers } from "../db";
+import { teachers } from "../../db";
 
 // 获取所有教师
 export async function GET() {
