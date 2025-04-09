@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { Teacher } from "@/types/teacher";
-import { teachers } from "../../db";
+import { teachers } from "../../../db";
 
 export async function DELETE(
   request: Request,
